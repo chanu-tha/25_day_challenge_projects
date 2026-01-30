@@ -16,3 +16,9 @@ print('=' * 40)
 # Homework:
 # 1. Add projections for how much tax you'd pay if you
 # doubled and tripled your income.
+
+print(f'Double Base Income:       ${2 * base_income:,.2f}')
+print(f'Yearly Tax (Base):        ${2 * taxed:,.2f}')
+print('=' * 40)
+print(f'Triple Base Income:       ${3 * base_income:,.2f}')
+print(f'Yearly Tax (Base):        ${3 * taxed:,.2f}')
