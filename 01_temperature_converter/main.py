@@ -24,3 +24,21 @@ print(f'{fahrenheit_input}°F -> {converted_to_c:.1f}°C')
 #
 # Remember, the homework is optional—but doing it will help you
 # learn Python much faster than just watching me code.
+
+import random
+
+KILOMETERS_TO_MILES = 1 / 1.609
+MILES_TO_KILOMETERS = 1.609
+
+#user input
+kilometers_input = random.randint(1, 1000)
+miles_input = random.randint(1, 1000)
+
+# converter
+
+convert_to_km = miles_input * (MILES_TO_KILOMETERS)
+convert_to_miles = kilometers_input * (KILOMETERS_TO_MILES)
+
+# result
+print(f"{kilometers_input} km -> {convert_to_miles:.2f} miles")
+print(f"{miles_input} miles -> {convert_to_km:.2f} km")
